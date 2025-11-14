@@ -7,10 +7,11 @@
 3. **Von Sensoren zum Sound: Gestaltung eines Real-time Mapping-Systems für verteilte mobile Geräte als Musikinstrumente**
 4. **Das Smartphone als Instrument: Untersuchung niedrigschwelliger Zugänge zum kollaborativen Musizieren durch browser-native Sensor-Integration**
 5. **Bidirektionale Partizipation: Konzeption eines Browser-basierten Systems zur haptisch-visuell-auditiven Publikumsintegration in Live-Performances**
-6. **DecentraBand : Gestaltung von Benutzeroberflächen für die Echtzeitsteuerung audiovisueller Inhalte in einem dezentralen, kollaborativem Szenario**
+6. **DecentraBand : Konzeption und Implementation von Benutzeroberflächen für die Echtzeitsteuerung audiovisueller Inhalte in einem dezentralen, kollaborativem Szenario**
 7. **Distributed Embodied Performance: Erforschung multimodaler Feedback-Mechanismen für webbasierte kollaborative Sensor-Orchestration**
 8. **Strudel meets WebRTC: Erweiterung des Strudel-Frameworks zur Integration von WebRTC für dezentrales audiovisuelles Live-Coding**
-
+9. **Programmable Peers: Entwicklung eines Systems zur dynamischen Generierung und Live-Distribution adaptiver Benutzeroberflächen für kollaborative webbasierte Musikperformances**
+10. **10. Remote Interface Orchestration: Konzeption eines bidirektionalen Systems zur Laufzeit-Gestaltung verteilter Eingabe-Interfaces für sensor-basierte audiovisuelle Performances**
 
 ---
 
@@ -46,7 +47,22 @@ Was für Möglichkeiten gibt es, Daten von mehreren verteilten Endgeräten zu sa
 - Welche kreativen Möglichkeiten ergeben sich durch die Nutzung von verteilten Endgeräten für die Generierung von Klang- und Bildinhalten?
 - Kann der Host Audio-Streams oder synthesierte Sounds zurück an einzelne oder alle Peers senden, um verteilte Spatial-Audio-Installationen zu ermöglichen, bei denen jedes Smartphone zum Lautsprecher wird?
 
-### Frage 3: Partizipative Performance und Publikumsrolle
+### Frage 3: Gestaltung einer Nutzeroberfläche zur Live-Steuerung audiovisueller Inhalte
+
+**Hauptfrage:**
+Wie kann eine benutzerfreundliche Oberfläche gestaltet werden, die es Performern ermöglicht, audiovisuelle Inhalte in Echtzeit auf Basis von Sensordaten von mehreren Endgeräten zu orchestrieren?
+
+**Teilfragen:**
+- Wie kann die Komplexität der Steuerung mehrerer Endgeräte übersichtlich und intuitiv in einer Oberfläche abgebildet werden?
+- Können Design-Patterns aus der DAW- und Live-Coding-Welt (z.B. Node-basierte Programmierung, Clip-Launchers) auf die Steuerung von verteilten Endgeräten übertragen werden?
+- Welche visuellen Rückmeldungen sind notwendig, damit Performer den Status und die Beiträge der einzelnen Endgeräte nachvollziehen können?
+- Wie kann die Oberfläche so gestaltet werden, dass sie sowohl für Anfänger als auch für erfahrene Performer zugänglich ist?
+- Wie kann einem Performer das Mapping von Sensordaten zu Klang- und Bildparametern erleichtert werden (z.B. durch Drag-and-Drop, Presets, visuelle Hilfen)?
+- Welche Rolle spielen Voreinstellungen und anpassbare Templates, um den Einstieg in die Nutzung des Systems zu erleichtern?
+- Wie lässt sich die Bidirektionalität der Kommunikation für Performer nutzbar machen, um audiovisuelles Feedback an die Peers zu senden oder deren Beiträge in Echtzeit zu modifizieren?
+- Gibt es eine Möglichkeit für Performer, für die Performer variable Interfaces zu erstellen, um diese an unterschiedliche Performance-Szenarien anzupassen? Beispielsweise, einem Nutzer, der ein Klavier-Layout auf seinem Smartphone angezeigt bekommt, während ein anderer Nutzer ein XY-Pad sieht.
+
+### Frage 4: Partizipative Performance und Publikumsrolle
 
 **Hauptfrage:**
 Wie verändert sich die Dynamik zwischen Performer und Publikum, wenn Zuschauer durch eigene Smartphones aktiv am audiovisuellen Erlebnis teilnehmen können?
@@ -62,7 +78,7 @@ Wie verändert sich die Dynamik zwischen Performer und Publikum, wenn Zuschauer 
 
 ---
 
-### Frage 4: Barrierefreiheit und Zugänglichkeit digitaler Musikinstrumente
+### Frage 5: Barrierefreiheit und Zugänglichkeit digitaler Musikinstrumente
 
 **Hauptfrage:**
 Inwiefern kann ein browserbasiertes, sensor-gesteuertes System die Zugangshürden zu musikalischem Ausdruck und Kollaboration im Vergleich zu traditioneller Hardware senken?
